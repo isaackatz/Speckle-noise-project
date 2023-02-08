@@ -21,5 +21,5 @@ for i = 1:1:(size(img,1) - (side_of_win - 1))
 end
 
 filt_img = filt_img(border(1)+1:end-border(1),border(2)+1:end-border(2));
-filt_img = max(min(filt_img,1),0);
+%filt_img = max(min(filt_img,1),0);
 end
